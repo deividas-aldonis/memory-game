@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+body {
+    font-family: "Luckiest Guy", cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: #fff;
+}
+
+.container>div {
+    width: 150px;
+    height: 150px;
+
+    font-size: 36px;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.question {
+    background-color: cadetblue;
+}
+
+.question::after {
+    content: "?";
+}
+
+.winner {
+    background-color: indianred;
+    pointer-events: none;
+}
+
+.winner::after {
+    content: "GJ !";
+}
+
+.one {
+    background-color: khaki
+}
+
+.one::after {
+    content: "1";
+}
+
+.two {
+    background-color: blueviolet;
+}
+
+.two::after {
+    content: "2";
+}
+
+.three {
+    background-color: goldenrod;
+}
+
+.three::after {
+    content: "3";
+}
+
+.four {
+    background-color: coral;
+}
+
+.four::after {
+    content: "4";
+}
+
+.five {
+    background-color: cornflowerblue;
+}
+
+.five::after {
+    content: "5";
+}
+
+.six {
+    background-color: darkslateblue;
+}
+
+.six::after {
+    content: "6";
+}
